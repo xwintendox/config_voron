@@ -1,5 +1,3 @@
-[include mmu/base/*.cfg]
-[include mmu/optional/mmu_menu.cfg]
 ## Voron Design VORON2 250/300/350mm SKR 1.3 TMC2209 UART config
 
 ## *** THINGS TO CHANGE/CHECK: ***
@@ -72,8 +70,8 @@
 #[include] 
 
 [include KAMP_Settings.cfg]
-[include stealthburner_leds.cfg]
-#[include stealthburner_led_effects_barf.cfg]
+#[include stealthburner_leds.cfg]
+[include stealthburner_led_effects_barf.cfg]
 [include config_backup.cfg]
 [exclude_object]
 [include Macros.cfg]
